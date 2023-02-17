@@ -1,4 +1,2 @@
-dotenv.env
-/myenv
-main.py
-/django_test/django_test/settings.py
+/my_env
+/.vscode
