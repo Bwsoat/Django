@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{% static 'css/general.css' %}">
 </head>
 <body>
-    <div class="container2">
+    <div>
             <form action="{% url 'polls:vote' question.id %}" method= "post">
             {% csrf_token %}
             <fieldset>
